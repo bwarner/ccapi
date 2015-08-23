@@ -1,0 +1,40 @@
+{
+  "name": "ccapi",
+  "description": "Javascript library for interactions with Constant Contact v2 API",
+  "version": "1.0.0",
+  "author": {
+    "name": "Byron Warner",
+    "email": "byron.warner@farvisionllc.com"
+  },
+  "license": "N/A",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bwarner/ccapi.git"
+  },
+  "keywords": [
+    "AppConnect",
+    "SDK",
+    "emailmarketing"
+  ],
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.11.0",
+    "gulp-mocha": "^2.1.0",
+    "gulp-util": "^3.0.4",
+    "jsdoc": "~3.3.0-alpha9",
+    "jsdoc-stability-tag": "~1.0.0",
+    "mocha": "^2.2.5"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha tests"
+  }
+}
