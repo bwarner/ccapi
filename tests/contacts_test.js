@@ -1,9 +1,10 @@
+var appconnect = require("../appconnect");
 var Contacts = require("../lib").Contacts;
 
 describe("Contacts initialization", function() {
     it("Contacts collection endpoint", function(done){
     try {
-        var contacts =  new Contacts({apikey:'fbwx5xu4qt9wm84uvcqjntnc', accessToken: "49110418-767b-4f0f-9fa2-a4ed3ffcd83d"});
+        var contacts =  new Contacts({apikey:appconnect.apikey, accessToken: appconnect.accessToken});
         var next;
         var err;
         function fetchAll(contacts, callback) {
